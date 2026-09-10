@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SecureAuth - Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🔐 SecureAuth</h1>
+
+    <h2>Welcome, {{ username }}! 👋</h2>
+
+    <div class="security-box">
+
+        <h3>Security Status</h3>
+
+        <p>✅ Authentication successful</p>
+
+        <p>✅ Password securely hashed</p>
+
+        <p>✅ Session is active</p>
+
+        <p>✅ Protected dashboard</p>
+
+    </div>
+
+    <a href="{{ url_for('logout') }}">
+        <button>Logout</button>
+    </a>
+
+</div>
+
+</body>
+</html>
