@@ -3,8 +3,7 @@
 **Name:** M. Sirivally  
 **Roll Number:** 24071A05R1  
 
-**GitHub Repository:**  
-https://github.com/sirivally574/cybersecurity-authentication-toolkit
+
 
 **Live/Demo Link:**  
 https://cybersecurity-authentication-toolkit.onrender.com/
